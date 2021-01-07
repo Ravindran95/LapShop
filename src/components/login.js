@@ -20,15 +20,15 @@ export default class Login extends Component {
        
         return (
             <form onSubmit={this.Validate.bind(this)}>
-                <div className="bgimg">
+             <div className="bgl">
              <div className="outer">
              
                  <div className="inner">
                 <h3>Log in</h3>
 
                 <div className="form-group">
-                    <label>Email</label>
-                    <input type="email" className="form-control" placeholder="Enter email" name="email"/>
+                    <label >Email</label>
+                    <input type="email" className="form-control"  placeholder="Enter email" name="email"/>
                 </div>
 
                 <div className="form-group">

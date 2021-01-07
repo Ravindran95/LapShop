@@ -24,8 +24,8 @@ class Cart extends Component{
                 this.props.items.map(item=>{
                     return(
                        
-                        <li className="collection-item avatar" key={item.id}>
-                                    <div className="item-img"> 
+                        <li className="collection-item " key={item.id}>
+                                    <div className="item-img "> 
                                         <img src={item.img} alt={item.img} className=""/>
                                     </div>
                                 
@@ -44,7 +44,7 @@ class Cart extends Component{
                                     </div>
                                     
                                 </li>
-                         
+                                
                     )
                 })
             ):
@@ -53,6 +53,7 @@ class Cart extends Component{
                 <p>Nothing.</p>
              )
        return(
+        <div className="bgc">
             <div className="container">
                 <div className="cart">
                     <h5>You have ordered:</h5>
@@ -61,6 +62,7 @@ class Cart extends Component{
                     </ul>
                 </div> 
                 <Recipe />          
+            </div>
             </div>
        )
     }

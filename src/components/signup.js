@@ -27,6 +27,7 @@ class SignUp extends Component {
     render() {
         return (
             <form onSubmit={this.StoreData.bind(this)}>
+               <div className="bgr">
                 <div className="outer">
              
              <div className="inner">
@@ -56,6 +57,7 @@ class SignUp extends Component {
                 <p className="forgot-password text-right">
                     Already registered <a href="sign-in">log in?</a>
                 </p>
+                </div>
                 </div>
                 </div>
             </form>
